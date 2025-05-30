@@ -1,40 +1,57 @@
 # VeinClassifier
 
-Bu proje, medikal görüntülerde damar segmentasyonu ve sınıflandırması için temel bir makine öğrenimi pipeline'ı sunar.
+## 🚀 Project Purpose / Proje Amacı
 
-## Klasör Yapısı
+- 🩺 **Medical Image Analysis**: Provides a pipeline for vein segmentation and classification in medical images.
+- 🤖 **Machine Learning**: Feature extraction, model training, and prediction for vascular structures.
+- 👩‍🔬 **For Researchers**: Designed for those working on medical image analysis and vascular studies.
 
-```
-VeinClassifier/
-├── data/               # (Veri burada tutulmaz, .gitignore içinde tutulur)
-├── src/                # Ana kodlar (özellik çıkarımı, model eğitimi vs.)
-│   ├── feature_extraction.py
-│   ├── train_classifier.py
-│   ├── predict.py
-│   └── utils.py
-├── notebooks/          # Jupyter analizleri veya testler
-│   └── vein_classification_demo.ipynb
-├── results/            # Sonuç görselleri veya çıktı dosyaları
-├── requirements.txt    # Kullanılan kütüphaneler
-├── .gitignore
-└── README.md
-```
+---
 
-## Kurulum
+## 📁 Folder Structure / Klasör Yapısı
 
-1. Gerekli kütüphaneleri yükleyin:
+- `data/` 📦  
+  _Datasets and images (not tracked by git)_
+- `src/` 🛠️  
+  _Main code: feature extraction, training, prediction_
+- `notebooks/` 📓  
+  _Jupyter notebooks for analysis and visualization_
+- `results/` 🖼️  
+  _Output images and results_
+- `models/` 🧠  
+  _Trained model files_
+- `evaluation/` 📊  
+  _Evaluation results and confusion matrices_
+
+---
+
+## ⚡ Quick Start / Hızlı Başlangıç
+
+1. 📦 Install requirements / Gerekli kütüphaneleri yükleyin:
    ```bash
    pip install -r requirements.txt
    ```
-2. `data/` klasörüne eğitim ve test görüntülerinizi ekleyin (bu klasör git ile takip edilmez).
+2. 🖼️ Add your images to `data/` / Görüntülerinizi `data/` klasörüne ekleyin.
 
-## Kullanım
+---
 
-- Özellik çıkarımı: `src/feature_extraction.py`
-- Model eğitimi: `src/train_classifier.py`
-- Tahmin: `src/predict.py`
-- Analiz ve görselleştirme: `notebooks/vein_classification_demo.ipynb`
+## 🛠️ Usage / Kullanım
 
-## Notlar
-- `data/` ve büyük veri dosyaları `.gitignore` ile hariç tutulur.
-- Sonuçlar ve çıktı görselleri `results/` klasöründe saklanır.
+- ✨ **Feature Extraction**: `src/Features.py`
+- 🏋️‍♂️ **Model Training**: `src/Train.py`
+- 🔍 **Prediction**: `src/Test.py`
+- 📊 **Analysis & Visualization**: `notebooks/vein_classification_demo.ipynb`
+
+---
+
+## 📝 Notes / Notlar
+
+- `data/` and large files are excluded from git.
+- Results and output images are saved in `results/`.
+- Trained models are stored in `models/`.
+- Evaluation results are in `evaluation/`.
+
+---
+
+> 🇬🇧 This project is bilingual! All instructions are provided in both English and Turkish.
+> 🇹🇷 Bu proje iki dilli! Tüm talimatlar İngilizce ve Türkçe olarak sunulmuştur.
