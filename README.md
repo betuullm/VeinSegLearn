@@ -1,6 +1,6 @@
 # VeinClassifier
 
-## 🚀 Project Purpose / Proje Amacı
+## 🚀 Project Purpose
 
 - 🩺 **Medical Image Analysis**: Provides a pipeline for vein segmentation and classification in medical images.
 - 🤖 **Machine Learning**: Feature extraction, model training, and prediction for vascular structures.
@@ -8,7 +8,7 @@
 
 ---
 
-## 📁 Folder Structure / Klasör Yapısı
+## 📁 Folder Structure
 
 - `data/` 📦  
   _Datasets and images (not tracked by git)_
@@ -25,13 +25,13 @@
 
 ---
 
-## ⚡ Quick Start / Hızlı Başlangıç
+## ⚡ Quick Start 
 
-1. 📦 Install requirements / Gerekli kütüphaneleri yükleyin:
+1. 📦 Install requirements:
    ```bash
    pip install -r requirements.txt
    ```
-2. 🖼️ Add your images to `data/` / Görüntülerinizi `data/` klasörüne ekleyin.
+2. 🖼️ Add your images to `data/`
 
 ---
 
@@ -44,7 +44,7 @@
 
 ---
 
-## 📝 Notes / Notlar
+## 📝 Notes
 
 - `data/` and large files are excluded from git.
 - Results and output images are saved in `results/`.
@@ -53,5 +53,3 @@
 
 ---
 
-> 🇬🇧 This project is bilingual! All instructions are provided in both English and Turkish.
-> 🇹🇷 Bu proje iki dilli! Tüm talimatlar İngilizce ve Türkçe olarak sunulmuştur.
